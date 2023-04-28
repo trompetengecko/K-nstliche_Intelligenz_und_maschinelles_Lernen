@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MatrixSumProd {
+public class BonusMatrixSumProd {
 
     // Schreiben Sie eine Methode, die einen Matrix x (vom Typ Double) als Parameter
     // erwartet und ein Skalar (vom Typ Double) zurückgibt.
