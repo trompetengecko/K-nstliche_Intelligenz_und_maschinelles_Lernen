@@ -19,7 +19,6 @@ public class crossEntropy_2_6 {
 
         public static double crossEntropy(double[][] Y, double[][] T) {
                 double cEntropy = 0;
-
                 for (int i = 0; i < Y.length; i++) {
                         for (int j = 0; j < Y[i].length; j++) {
                                 cEntropy += Math.log(Y[i][j]) * T[i][j];
