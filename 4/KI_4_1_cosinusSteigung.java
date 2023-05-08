@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class KI_3_4_sm {
+public class KI_4_1_cosinusSteigung {
 
         // Implementieren Sie eine Funktion cosinusSteigung, welche die double-Parameter x und eps
         // akzeptiert und als Ergebnis die Steigung a linke klammer x Komma ϵ rechte klammer der
@@ -8,8 +8,11 @@ public class KI_3_4_sm {
         // Schrittweite eps, zurückliefert!
 
         public static double cosinusSteigung(double x, double eps) {
-                return 0.0;
-
+                double delta = 0.0;
+                double a = 0.0;
+                delta = Math.pow(x + eps, 2) - Math.pow(x, 2);
+                a = delta / eps;
+                return a;
         }
 
 
